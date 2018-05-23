@@ -1,0 +1,48 @@
+body{font-family: "microsoft yahei";}
+.container{width: 1200px;margin-left: auto;margin-right: auto;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+
+/*头部*/
+.hotline{ background: #231815; height: 40px;}
+.hotline span{ padding-left: 180px; background: url("../images/hotline_pic.png") no-repeat left center; line-height: 40px;font-weight: bold;display: block;height: 40px;font-size: 22px}
+.nav{ height: 111px; background-color: #c8e6c9; position: relative;}
+.nav_list{ width: 450px;}
+.nav_list li{ float: left;}
+.nav_list.fl li{ margin-right: 28px;}
+.nav_list.fr li{ margin-left: 28px;}
+.nav_list a{ width: 120px; height: 111px; display: block;transition: all ease .3s;}
+.nav_list a.one{ background: url("../images/nav_list_1.png") no-repeat 0 0;}
+.nav_list a.two{ background: url("../images/nav_list_2.png") no-repeat 0 0;}
+.nav_list a.three{ background: url("../images/nav_list_3.png") no-repeat 0 0;}
+.nav_list a.four{ background: url("../images/nav_list_4.png") no-repeat 0 0;}
+.nav_list a.five{ background: url("../images/nav_list_5.png") no-repeat 0 0;}
+.nav_list a.six{ background: url("../images/nav_list_6.png") no-repeat 0 0;}
+.nav_list a:hover ,.nav_list .active a{background-position: 0 -111px;}
+.logo{ width: 300px; height: 150px; position: absolute; margin-left: -150px; bottom:-45px; left:50%; z-index: 999999999;display: block;}
+/*end_头部*/
+
+
+/*底部开始*/
+#footer{width: 100%;height: 300px;background-color: #231815;}
+#footer .container{height: 100%;}
+#footer .link{height: 60px;line-height: 60px;}
+#footer .link a{color:#ffffff;font-size: 14px;margin-right: 50px;}
+#footer .link a.active,#footer .link a:hover{font-weight: bold;}
+#footer .bot{width: 100%;height: 145px;border-top: 1px solid #434343;border-bottom: 1px solid #434343;padding-top: 30px;}
+#footer .bot .fl{border-left: 10px solid #ffffff;line-height: 30px;font-size: 14px;color:#fff;padding-left: 10px;}
+#footer .bot .fl p{margin-bottom: 10px;}
+#footer .bot .fl span{margin-right: 20px;}
+#footer .bot .fr li{float: left;margin-left: 50px;width:62px;height:64px;cursor:pointer;position:relative;}
+#footer .copyright{float: right;color:#ffffff;font-size: 12px;line-height: 56px;}
+#footer .bot .fr li:nth-child(1){background:url(../images/icon1.png) no-repeat center;}
+#footer .bot .fr li:nth-child(2){background:url(../images/icon2.png) no-repeat center;}
+#footer .bot .fr li:nth-child(3){background:url(../images/icon3.png) no-repeat center;}
+#footer .bot .fr li:nth-child(4){background:url(../images/icon4.png) no-repeat center;}
+#footer .bot .fr li:nth-child(1):hover{background:url(../images/icon01.png) no-repeat center;}
+#footer .bot .fr li:nth-child(2):hover{background:url(../images/icon02.png) no-repeat center;}
+#footer .bot .fr li:nth-child(3):hover{background:url(../images/icon03.png) no-repeat center;}
+#footer .bot .fr li:nth-child(4):hover{background:url(../images/icon04.png) no-repeat center;}
+#footer .bot .fr li span{position:absolute;top:0;left:0;display:none;}
+/*底部结束*/
